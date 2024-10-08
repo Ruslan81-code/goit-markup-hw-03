@@ -139,6 +139,15 @@ button {
 /*=====/HEADER STYLES=====*/
 
 /*=====MAIN STYLES=====*/
+.container .hero-container {
+  display: inline-block;
+  align-items: center;
+}
+
+.section {
+  padding: 120px 0;
+}
+
 .portfolio-gallery {
   background-color: #ffffff;
 }
@@ -154,12 +163,17 @@ button {
   text-align: center;
   color: #fff;
 }
-h1 {
-  color: #2e2f42;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
+
+.advantages {
+}
+
+.advantages-list {
+  display: flex;
+  gap: 24px;
+}
+
+.advantages-item {
+  width: 264px;
 }
 
 .advantages-title {
@@ -176,11 +190,11 @@ h1 {
   color: #434455;
 }
 
-.users {
+.team {
   background-color: #f4f4fd;
 }
 
-.team-pic {
+.team-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -191,7 +205,13 @@ h1 {
 }
 
 .team-list {
+  display: flex;
+  gap: 24px;
+}
+
+.team-item {
   background-color: #ffffff;
+  width: 264px;
 }
 
 .image-title {
@@ -222,6 +242,17 @@ h1 {
   color: #2e2f42;
 }
 
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 48px;
+  column-gap: 24px;
+}
+
+.portfolio-item {
+  width: 360px;
+}
+
 .image-headline {
   font-weight: 500;
   font-size: 20px;
@@ -243,11 +274,24 @@ h1 {
 /*=====/PORTFOLIO STYLES=====*/
 
 /*=====FOOTER STYLES=====*/
+.footer-logo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 0px;
+  color: #4d5ae5;
+}
+
 .footer-text {
+  width: 264px;
+  font-weight: 400;
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
+
 .footer-size {
   background-color: #2e2f42;
 }
