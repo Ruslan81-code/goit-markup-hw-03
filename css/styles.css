@@ -34,12 +34,25 @@ a {
 }
 
 button {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 10px;
   cursor: pointer;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
   background-color: #4d5ae5;
+  padding-top: 48px;
+  user-select: none;
+}
+
+.button-box {
+  display: inline-block;
+  border-radius: 4px;
+  padding: 16px 32px;
+  width: 169px;
 }
 
 .button-link .link {
@@ -159,6 +172,7 @@ button {
 .hero-title {
   box-sizing: border-box;
   margin: 0 auto;
+  flex-wrap: nowrap;
   weight: 496px;
   font-weight: 700;
   font-size: 56px;
